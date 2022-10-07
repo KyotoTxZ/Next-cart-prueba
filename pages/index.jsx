@@ -14,13 +14,12 @@ export default function Home() {
     <main className="main">
       <Layout title={"Home"}>
         <div className="filer_product">
-          <h1 className="title_product">Lista de productos</h1>
+          <h1 className="title_product">Lista de productos jajaj</h1>
           <Fliter_Products products={products} />
           <li className="nav-item">
             <Link href="/cart">
               <a className="nav-link active" aria-current="page" href="#">
                 Cart{" "}
-                
               </a>
             </Link>
           </li>
