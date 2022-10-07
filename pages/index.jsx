@@ -14,7 +14,7 @@ export default function Home() {
     <main className="main">
       <Layout title={"Home"}>
         <div className="filer_product">
-          <h1 className="title_product">Lista de productossgit </h1>
+          <h1 className="title_product">Lista de productos</h1>
           <Fliter_Products products={products} />
           <div className="nav-item">
             <Link href="/cart">
